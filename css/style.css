@@ -1,0 +1,97 @@
+*{
+	padding:0; margin:0;
+}
+
+h2{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #000000;
+	margin-right: 200px;
+}
+small{
+	color: #b69877;
+}
+small a, 
+p a{
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Header */
+header{
+	background: #6CA870;
+	padding: 5px 5px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 5;
+	overflow: hidden;
+}
+
+header img{
+	float: none;
+	max-height: 100px;
+}
+
+/* Content */
+
+.page{
+	background: url(../img/background.png) right top no-repeat;
+}
+.one{
+	background-color: #E8FFD9;
+}
+	.one .page-container{
+		position: absolute;
+		bottom: 200px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.one .page-container h2{
+			font-size: 4em;
+		}
+		.one .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.two{
+	background-color: #F7F18A;
+}
+	
+	.two .page-container{
+	padding-right: 10px;
+	padding-bottom: 10px;
+	}
+		.two .page-container h2{
+			font-size: 4em;
+		}
+		.two .page-container p{
+			padding: 10px 0;
+			line-height: 1.5em;
+			position: static;
+		}
+
+
+.footer{
+			padding: 10px 0;
+			background: -webkit-linear-gradient(left, #ccc, #999);
+			background: -moz-linear-gradient(left, #ccc, #999);
+			background: -o-linear-gradient(left, #ccc, #999);
+			background: -ms-linear-gradient(left, #ccc, #999);
+			background: linear-gradient(left, #ccc, #999);
+			bottom: 0;
+			position: fixed;
+			width: 100%;
+			font-size: 12px;
+			text-align: center;
+		}
+			.footer a{
+				text-decoration: none;
+				font-weight: bold;
+				color: #000;
+			}
+

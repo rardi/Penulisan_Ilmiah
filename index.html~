@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Aplikasi Taman Kota</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	
+	<header>
+		<img src="img/tamankota_atas.png" alt="tamankota_atas">
+	</header>
+	<div class="main">
+	
+		<section class="page one">
+			<div class="page-container">
+				<h2>Taman Kota</h2>
+				<p>TWD fokus pada untuk terus memberikan tutorial yang bermanfaat untuk pembaca setia tutorial-webdesign.com</p>
+				<p><small><a href="index2.html">&laquo; read more</a> | <a href="index2.html"><b><button>Tentang Penulis >></button></b></a></small></p>
+			</div>
+		</section>
+		
+	<div id="menulist" data-role="page">
+		<section class="page two">
+			<div class="page-container">
+			<div class="ui-grid-a" width="50%" style="background-color:transparant">
+    		<div class="ui-block-a"  >
+    			<div class="ui-bar" style="width:85%" align="center">	
+    				<p><a href="#herbalListPage"><img src="img/cari.png"><br>Pencarian Taman</a></p>
+        	    </div>
+        	</div>
+        	<div class="ui-block-b">
+        	    <div class="ui-bar" style="width:85%" align="center">	
+    				<p><a href="#cari"><img src="img/topten.png"><br>Top Recommended</a></p>
+        	    </div>
+        	</div>
+        	
+			</div>
+			</div>
+		</section>
+	</div>
+	</div>
+
+	
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>
