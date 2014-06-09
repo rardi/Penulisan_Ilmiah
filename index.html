@@ -54,21 +54,30 @@
 		</div>
 	</div>
 
-	</div> 
-	
-	<script type="text/javascript">
-	$(".main").onepage_scroll({
-		sectionContainer: "section",
-	});
-	</script>
+	</div>
+
 	<script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
-        
-
-
+	<script type="text/javascript">
+		$(".main").onepage_scroll({
+			sectionContainer: "section",
+		});
+		$(document).ready(function () {
+			$('#cari-taman').click(function (event) {
+				event.preventDefault();
+				window.location.href = 'index3.html#cari';
+			});
+			$('#topten').click(function (event) {
+				event.preventDefault();
+				window.location.href = 'index3.html#topten';
+			});
+		});
+	</script>
+	<!--
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript">
+		app.initialize();
+	</script>
+	-->
 
 </body>
 </html>
